@@ -161,6 +161,8 @@ button {
   }
 }
 #sec2 #sec2-art2 {
+  max-width: 1200px;
+  margin: 0 auto;
   padding-top: 3.5rem;
   height: 60vh;
   display: grid;
