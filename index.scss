@@ -93,6 +93,10 @@ button {
     figure {
       width: 100%;
       height: 100%;
+      @include pc{
+        background-size: contain;
+        background-position-x: 50vw;
+      }
       background-image: url(./images/visual01.jpg);
     }
   }
@@ -358,6 +362,10 @@ button {
   }
   .prxArt {
     figure {
+      @include pc{
+        background-size: contain;
+        background-position: left;
+      }
       background-image: url(./images/visual03.jpg);
     }
   }
@@ -397,6 +405,10 @@ button {
   }
   .prxArt {
     figure {
+      @include pc{
+        background-size: contain;
+        background-position-x: 50vw;
+      }
       background-image: url(./images/visual02.jpg);
     }
   }
