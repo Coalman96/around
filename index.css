@@ -356,9 +356,10 @@ button {
 }
 @media screen and (min-width: 769px) {
   #sec3 figure, #sec4 figure {
+    background-size: contain;
     margin: 0 auto;
-    width: 80%;
-    height: 60vh;
+    width: 60%;
+    height: 30vh;
   }
 }
 #sec3 .figureWrap, #sec4 .figureWrap {

@@ -320,9 +320,10 @@ button {
         height: 55vh;
       }
       @include pc {
+        background-size: contain;
         margin: 0 auto;
-        width: 80%;
-        height: 60vh;
+        width: 60%;
+        height: 30vh;
       }
     }
     .figureWrap {
